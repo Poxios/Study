@@ -13,3 +13,10 @@
     return () => window.removeEventListener('scroll', onScroll);	
   }, []);
 ```
+
+## 하단 경계선을 넘었을 때 계산법
+```js
+ const refBottom =
+        document.getElementById('RefsWrap').getBoundingClientRect().bottom -
+        window.innerHeight;
+```
