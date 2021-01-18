@@ -24,11 +24,11 @@ PORT 설정 조심해야함.
 
 ```json
 {
-  "name": "CS-Back",
+  "name": "",
   "version": "1.0.0",
-  "description": "Convergence Special Backend",
+  "description": "Backend",
   "main": "index.js",
-  "repository": "https://github.com/Convergence-Specialization/CS-Back.git",
+  "repository": "https://github.com",
   "author": "Poxios <poxios0310@gmail.com>",
   "license": "MIT",
   "scripts": {
