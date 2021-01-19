@@ -21,8 +21,7 @@
         window.innerHeight;
 ```
 
-## 
-a 페이지에서 b 페이지로 이동하면서 값을 전달하고 싶을 때:
+## a 페이지에서 b 페이지로 이동하면서 값을 전달하고 싶을 때:
 ```js
 // a.tsx 
 import { useHistory } from 'react-router-dom';
