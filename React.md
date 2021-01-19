@@ -83,4 +83,6 @@ componentDidMount = () => {
     ReactGA.pageview(window.location.pathname + window.location.search);
 };
 ```  
-하면 됨.
+하면 되는줄 알았으나 router v5.0부터는
+https://raptis.wtf/blog/custom-hook-to-connect-google-analytics-in-react/  
+이거 
