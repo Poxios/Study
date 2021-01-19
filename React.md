@@ -21,6 +21,29 @@
         window.innerHeight;
 ```
 
+## 
+a 페이지에서 b 페이지로 이동하면서 값을 전달하고 싶을 때:
+```js
+// a.tsx 
+import { useHistory } from 'react-router-dom';
+...
+
+const history = useHistory();
+history.push({
+            pathname: '/otp/check',
+            search: '?query=abc',
+            state: { isOTP: isOTP },
+          });
+===
+
+//b.tsx
+import { useHistory, useLocation } from 'react-router-dom';
+...
+
+const location = useLocation();
+console.log(location.state);
+```
+
 # React-GA
 ## 설치법
 `yarn add react-ga`  
