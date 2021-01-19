@@ -86,3 +86,46 @@ componentDidMount = () => {
 하면 되는줄 알았으나 router v5.0부터는
 https://raptis.wtf/blog/custom-hook-to-connect-google-analytics-in-react/  
 이거 
+
+```js
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import ReactGA from 'react-ga';
+
+const UseGoogleAnalytics = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    ReactGA.initialize('UA-xxx');
+  }, []);
+
+  useEffect(() => {
+    const currentPath = location.pathname + location.search;
+    ReactGA.set({ page: currentPath });
+    ReactGA.pageview(currentPath);
+  }, [location]);
+};
+export default UseGoogleAnalytics;
+
+```  
+그리고 Router에서
+```js
+
+const RouterComponent = () => {
+  UseGoogleAnalytics();
+  return (
+    <Switch>
+      <Route path="/" exact component={Main} />
+      <Route path="/login">
+      
+  .....
+  
+  
+const RouterExporter = () => {
+  return (
+    <Router>
+      <RouterComponent />
+    </Router>
+  );
+};
+```
