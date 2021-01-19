@@ -118,9 +118,9 @@ const RouterComponent = () => {
       <Route path="/" exact component={Main} />
       <Route path="/login">
       
-  .....
-  
-  
+```
+이렇게 export하면됨.
+```js
 const RouterExporter = () => {
   return (
     <Router>
