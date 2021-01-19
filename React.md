@@ -43,6 +43,34 @@ const location = useLocation();
 console.log(location.state);
 ```
 
+## useState, useCallback 정리
+```js
+const getApi = useCallback(async () => {
+    warehouseApi	    warehouseApi
+      .getByMainItemTypes(clickedItems, 0, 10)	      .getByMainItemTypes(clickedItems, pageIndex, 10)
+      .then(({ data: { warehouses } }) => {	      .then(({ data: { warehouses } }) => {
+        setResults(warehouses);	        if (isExtraLoading) {
+          setResults((prevResults) => [...prevResults, ...warehouses]);
+        } else {
+          setResults(warehouses);
+        }
+        setLoading(false);
+      })	      })
+      .catch(({ response: { status } }) => {	      .catch(({ response: { status } }) => {
+        if (status === 404) {	        if (status === 404) {
+          message.warning('검색 결과가 존재하지 않습니다.');	          if (isExtraLoading) {
+            message.warning('더 이상 검색 결과가 없습니다.');
+          } else {
+            message.warning('검색 결과가 존재하지 않습니다.');
+          }
+        } else {
+        }	        }
+        setLoading(false);
+      });	      });
+  }, [clickedItems]);	  }, [clickedItems, pageIndex, isExtraLoading, setResults]);
+
+```
+
 # React-GA
 ## 설치법
 `yarn add react-ga`  
