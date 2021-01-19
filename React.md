@@ -13,6 +13,29 @@
     return () => window.removeEventListener('scroll', onScroll);	
   }, []);
 ```
+## useLocation을 이용한 페이지간 props 전달
+```js
+// a.tsx 
+import { useHistory } from 'react-router-dom';
+...
+
+const history = useHistory();
+history.push({
+            pathname: '/otp/check',
+            search: '?query=abc',
+            state: { isOTP: isOTP },
+          });
+```
+
+```js
+//b.tsx
+import { useHistory, useLocation } from 'react-router-dom';
+...
+
+const location = useLocation();
+console.log(location.state);
+
+```
 
 ## 하단 경계선을 넘었을 때 계산법
 ```js
