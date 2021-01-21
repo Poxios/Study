@@ -142,3 +142,23 @@ export const selectCount = state => state.counter.value;
 
 export default slice.reducer;
 ```  
+* `setTimeout()`함수는 해당 초 이후에 내부 함수를 실행한다. 비동기로.
+* `setInterval()`함수는 일정시간마다 반복되는 함수이다.
+* 메모리 누수 조심: 페이지가 전환되지 않는 경우... 특히 싱글 페이지(SPA)인 경우 사용되지 않은 setTimeout() 코드가 메모리에 계속 남아 있을 수 있으며 가비지컬렉션(GB)에 의하여 회수 되지 않은 경우 성능저하의 원인이 된다. 반드시 setTimeout() 이벤트는 이벤트를 제거하는 코드 역시 필요하다. clearTimeout()은 설정된 setTimeout()을 제거하는 함수이다.  
+
+
+## Redux Store 만들기
+```js
+import { configureStore } from '@reduxjs/toolkit';
+import counterReducer from '../features/counter/counterSlice';
+
+export default configureStore({
+  reducer: {
+    counter: counterReducer,
+  },
+});
+```  
+초기 state를 counterReducer을 받아서 한다. couter: counterReducer로 초기 선언을 해줬다는 뜻은, state.counter의 영역을 
+사용하겠다는 말이다. configureStore()는 여러가지 middleware을 자동으로 세팅해준다.
+## Redux Slices
+**"Slice"**란 Redux reducer logic의 묶음이다. 앱의 single feature마다 생성하면 된다. 
