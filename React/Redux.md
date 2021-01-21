@@ -161,4 +161,4 @@ export default configureStore({
 초기 state를 counterReducer을 받아서 한다. couter: counterReducer로 초기 선언을 해줬다는 뜻은, state.counter의 영역을 
 사용하겠다는 말이다. configureStore()는 여러가지 middleware을 자동으로 세팅해준다.
 ## Redux Slices
-**"Slice"**란 Redux reducer logic의 묶음이다. 앱의 single feature마다 생성하면 된다. 
+"Slice"란 Redux reducer logic의 묶음이다. 앱의 single feature마다 생성하면 된다. 
