@@ -1,7 +1,7 @@
 https://redux.js.org/tutorials/essentials/part-1-overview-concepts
 # Redux Essentials
 ## Redux는 무엇이고, 언제쓰이는가?
-`Redux is a pattern and library for managing and updating application state, using events called "actions". It serves as a centralized store for state that needs to be used across your entire application, with rules ensuring that the state can only be updated in a predictable fashion.`
+`Redux is a pattern and library for managing and updating application state, using events called "actions". It serves as a centralized store for state that needs to be used across your entire application, with rules ensuring that the state can only be updated in a predictable fashion.`  
 프로젝트 전체를 관통하는, 중앙 상태 저장소 역할을 한다. 예측 가능한 상황에서 업데이트 되어야 하는 조건이 붙는다.  
 리덕스에는 장단점이 존재한다.  
 *__단점__: 배워야할게 많고, 더 많은 코드들을 작성해야한다. 코드에 간접적인 것들을 추가해야하고, 몇 가지 제한 사항이 붙는다. 장기 생산성과, 단기 생산성의
@@ -48,3 +48,51 @@ function counterReducer(state = initialState, action) {
   return state
 }
 ```  
+
+## 용어설명 2
+* Store: Redux state는 **store**이라는 object안에서 존재한다. reducer을 통과함으로써 생성된다. getState라는 현재 value를 반환하는 함수도 
+존재한다.  
+```js
+import { configureStore } from '@reduxjs/toolkit'
+
+const store = configureStore({ reducer: counterReducer })
+
+console.log(store.getState())
+// {value: 0}
+```
+
+* Dispatch: **state를 변경할 수 있는 유일한 method이다. store.dispatch()로 action object를 통과시키면 된다.** 
+```js
+store.dispatch({ type: 'counter/increment' })
+
+console.log(store.getState())
+// {value: 1}
+```  
+dispatching 하는 것을 "triggering event"로 이해하면 좋다. 어떤 일이 발생했고, 그 일을 상태 저장하고 싶은 것이다. Reducer은 이때 
+이벤트 리스너로 작동하는 것이다. dispatch는 보통 action creators를 사용해 다음과 같이 처리한다.  
+```js
+const increment = () => {
+  return {
+    type: 'counter/increment'
+  }
+}
+
+store.dispatch(increment())
+
+console.log(store.getState())
+// {value: 2}
+```  
+* Selectors: 같은 데이터를 다양한 종류로 가공해서 추출하고 싶을 때 사용한다. 대형 프로젝트에서 불필요하게 반복되는 로직들을 줄여줄 수 있다.
+```js
+const selectCounterValue = state => state.value
+
+const currentValue = selectCounterValue(store.getState())
+console.log(currentValue)
+// 2
+```  
+이런식으로 사용한다. 따로 메소드가 있는게 아니고.  
+## Redux Data Flow
+상술했던 "one-way data flow"와는 다르게, Redux data flow는 다른 특징들을 가지고 있다.  
+* 초기 구성: root reducer function을 생성한다. store은 이것을 호출하고, initial state로 초기화한다.
+* UI가 처음 렌더링되면, UI 컴포넌트는 각 state에 구독된다. useState와 비슷한듯.
+![image](https://redux.js.org/assets/images/ReduxDataFlowDiagram-49fa8c3968371d9ef6f2a1486bd40a26.gif)  
