@@ -161,4 +161,24 @@ export default configureStore({
 초기 state를 counterReducer을 받아서 한다. couter: counterReducer로 초기 선언을 해줬다는 뜻은, state.counter의 영역을 
 사용하겠다는 말이다. configureStore()는 여러가지 middleware을 자동으로 세팅해준다.
 ## Redux Slices
-"Slice"란 Redux reducer logic의 묶음이다. 앱의 single feature마다 생성하면 된다. 
+"Slice"란 Redux reducer logic의 묶음이다. 앱의 single feature마다 생성하면 된다.  
+action creators들을 우리가 손으로 매번 작성할 수도 있지만, 너무 비효율적이다. `createSlice`라는 것을 사용하면 된다.  
+```js
+console.log(counterSlice.actions.increment())
+// {type: "counter/increment"}
+```
+이런 식이다.  
+Redux에서 불변성을 지켜야하는 이유는 여러가지가 있는데, 읽어보니까 그냥 간결성 일관성등등의 이유이다. 근데 계속 강조하는거 보니까 진짜 중요한듯.  
+* It causes bugs, such as the UI not updating properly to show the latest values
+* It makes it harder to understand why and how the state has been updated
+* It makes it harder to write tests
+* It breaks the ability to use "time-travel debugging" correctly
+* It goes against the intended spirit and usage patterns for Redux  
+```js
+// ✅ This is safe, because we made a copy
+return {
+  ...state,
+  value: 123
+}
+```  
+이런식으로 해결하면 된다.  
