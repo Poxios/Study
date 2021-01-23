@@ -182,3 +182,44 @@ return {
 }
 ```  
 이런식으로 해결하면 된다.  
+
+## useSelector
+```js
+import React from 'react'
+import { useSelector } from 'react-redux'
+
+export const SinglePostPage = ({ match }) => {
+  const { postId } = match.params
+
+  const post = useSelector(state =>
+    state.posts.find(post => post.id === postId)
+  )
+
+```
+이런식으로 사용하면 된다. 주의사항은, useSelector에서 반환된 값은 state가 변화될 때마다 리렌더링 되는 것이다.  
+* find에서 찾지 못하면 undefined를 반환한다.
+* reducer에서 랜덤값과 같은 값을 계산하게 하면 안된다. uuid같은게 필요하면 그 전에 집어넣어라. 함수 같은걸 안에서 실행하고 싶으면 
+```js
+const postsSlice = createSlice({
+  name: 'posts',
+  initialState,
+  reducers: {
+    postAdded: {
+      reducer(state, action) {
+        state.push(action.payload)
+      },
+      prepare(title, content) {
+        return {
+          payload: {
+            id: nanoid(),
+            title,
+            content
+          }
+        }
+      }
+    }
+    // other reducers here
+  }
+})
+```  
+처럼 쓰면 된다. prepare callback 메소드를 제공해주는 것이다.  
