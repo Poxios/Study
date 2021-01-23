@@ -230,4 +230,20 @@ https://redux.js.org/tutorials/essentials/part-4-using-data#post-reaction-button
 
 # Async Logic
 지금까지 한건 로컬에서 작동하는거고, 보통은 API 호출이 필요하다. redux-thunk라는 middleware을 사용한다 보통. 플로우는 다음과 같다.
-![image](https://redux.js.org/assets/images/ReduxAsyncDataFlowDiagram-d97ff38a0f4da0f327163170ccc13e80.gif)
+![image](https://redux.js.org/assets/images/ReduxAsyncDataFlowDiagram-d97ff38a0f4da0f327163170ccc13e80.gif)  
+
+* API 서버로 글을 작성할 때에는, 클라이언트에서 랜덤값을 생성하는 행위를 하지 않아도 된다. 즉, 서버에서 그것을 처리하기 때문에 request body를 title, content, userId만 보내도 된다. 그러면 서버에서 다른 extra informations를 포함한 값을 반환할 것이다.  
+```js
+export const addNewPost = createAsyncThunk(
+  'posts/addNewPost',
+  // The payload creator receives the partial `{title, content, user}` object
+  async initialPost => {
+    // We send the initial data to the fake API server
+    const response = await client.post('/fakeApi/posts', { post: initialPost })
+    // The response includes the complete post object, including unique ID
+    return response.post
+  }
+)
+```  
+https://redux.js.org/tutorials/essentials/part-5-async-logic#sending-data-with-thunks
+
