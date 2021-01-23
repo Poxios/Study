@@ -223,3 +223,6 @@ const postsSlice = createSlice({
 })
 ```  
 처럼 쓰면 된다. prepare callback 메소드를 제공해주는 것이다.  
+  
+## 포스트 리액션 버튼
+https://redux.js.org/tutorials/essentials/part-4-using-data#post-reaction-buttons
