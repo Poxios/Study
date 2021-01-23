@@ -246,4 +246,7 @@ export const addNewPost = createAsyncThunk(
 )
 ```  
 https://redux.js.org/tutorials/essentials/part-5-async-logic#sending-data-with-thunks
+  
+# Performance and Normalizing Data
+
 
