@@ -225,5 +225,8 @@ const postsSlice = createSlice({
 처럼 쓰면 된다. prepare callback 메소드를 제공해주는 것이다.  
   
 ## 포스트 리액션 버튼
-https://redux.js.org/tutorials/essentials/part-4-using-data#post-reaction-buttons  
-https://redux.js.org/assets/images/ReduxAsyncDataFlowDiagram-d97ff38a0f4da0f327163170ccc13e80.gif
+https://redux.js.org/tutorials/essentials/part-4-using-data#post-reaction-buttons
+
+# Async Logic
+지금까지 한건 로컬에서 작동하는거고, 보통은 API 호출이 필요하다. redux-thunk라는 middleware을 사용한다 보통. 플로우는 다음과 같다.
+![image](https://redux.js.org/assets/images/ReduxAsyncDataFlowDiagram-d97ff38a0f4da0f327163170ccc13e80.gif)  
