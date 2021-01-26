@@ -13,3 +13,13 @@ https://engineering.huiseoul.com/react-prod-staging-dev-%ED%99%98%EA%B2%BD-%EC%8
   
 그리고 이거는 진짜 CRA
 https://m.blog.naver.com/legend25/222033372402  
+
+```js
+"scripts": {
+    "start": "react-scripts start",
+    "build": "env-cmd -f .env react-scripts  build",
+    "build:prod": "env-cmd -f .env.production react-scripts  build && move build ./build_prod",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+```
