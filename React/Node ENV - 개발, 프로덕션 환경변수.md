@@ -9,4 +9,7 @@ REACT_APP_API_HOST="https://dev-api.banchangohub.com/v3/"
 이런식으로 앞에 REACT_APP을 붙여줘야 한다.
   
 보통 치면 나오는거는 다 npm start시에 변수를 설정하는거다. 실제로는 npm build에서 작동되어야한다.
-https://engineering.huiseoul.com/react-prod-staging-dev-%ED%99%98%EA%B2%BD-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0-8eb6bbccddfe
+https://engineering.huiseoul.com/react-prod-staging-dev-%ED%99%98%EA%B2%BD-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0-8eb6bbccddfe  
+  
+그리고 이거는 진짜 CRA
+https://m.blog.naver.com/legend25/222033372402  
