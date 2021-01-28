@@ -7,5 +7,5 @@ https://firebase.google.com/docs/auth/admin/verify-id-tokens?hl=ko
   
 ## 토큰 재인증 - 클라이언트 사이드에서
 https://firebase.google.com/docs/auth/admin/manage-sessions?hl=ko#detect_id_token_revocation
-![image](https://user-images.githubusercontent.com/62606632/106087803-1878e000-6168-11eb-8c5f-21e541d41693.png)
 ![image](https://user-images.githubusercontent.com/62606632/106087944-5970f480-6168-11eb-9aab-481a47f856a3.png)
+![image](https://user-images.githubusercontent.com/62606632/106087803-1878e000-6168-11eb-8c5f-21e541d41693.png)
