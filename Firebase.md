@@ -9,3 +9,6 @@ https://firebase.google.com/docs/auth/admin/verify-id-tokens?hl=ko
 https://firebase.google.com/docs/auth/admin/manage-sessions?hl=ko#detect_id_token_revocation
 ![image](https://user-images.githubusercontent.com/62606632/106087944-5970f480-6168-11eb-9aab-481a47f856a3.png)
 ![image](https://user-images.githubusercontent.com/62606632/106087803-1878e000-6168-11eb-8c5f-21e541d41693.png)
+  
+## Firebase 사용시 JS 사용 문법 플로우
+![image](https://user-images.githubusercontent.com/62606632/106088493-680bdb80-6169-11eb-8329-b7589d1b982e.png)
