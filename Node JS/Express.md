@@ -99,3 +99,7 @@ app.use(function handleDatabaseError(error, req, res, next) {
 ```
 ## 로깅
 morgan, winston 쓰는데 콘솔에 찍을거면 morgan쓰면 된다.
+
+## 비동기 처리
+https://programmingsummaries.tistory.com/399  
+기본적으로 express는 비동기 처리를 지원하지 않는다.
