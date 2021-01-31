@@ -97,3 +97,5 @@ app.use(function handleDatabaseError(error, req, res, next) {
   next(error)
 })
 ```
+## 로깅
+morgan, winston 쓰는데 콘솔에 찍을거면 morgan쓰면 된다.
