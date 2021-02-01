@@ -13,5 +13,5 @@
 <meta name="twitter:title" content="My super-cool blog post | gatsby-starter-morning-dew">
 <meta name="twitter:description" content="This is my very cool blog post description!">
 <meta name="twitter:image" content="https://www.maxpou.fr/path/to/image/generated.png">
-```html
+```
   ㅇㅇ 위에 image가 미리보기 사진이다.
