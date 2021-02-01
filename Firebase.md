@@ -12,3 +12,16 @@ https://firebase.google.com/docs/auth/admin/manage-sessions?hl=ko#detect_id_toke
   
 ## Firebase 사용시 JS 사용 문법 플로우
 ![image](https://user-images.githubusercontent.com/62606632/106088493-680bdb80-6169-11eb-8329-b7589d1b982e.png)
+  
+## Firebase .env 적용
+```js
+admin.initializeApp({
+  credential: admin.credential.cert({
+      projectId: process.env.FIREBASE_PROJECT_ID, // I get no error here
+      clientEmail: process.env.FIREBASE_CLIENT_EMAIL, // I get no error here
+      privateKey: process.env.FIREBASE_PRIVATE_KEY.replace(/\\n/g, '\n') // NOW THIS WORKS!!!
+  }),
+  databaseURL: process.env.FIREBASE_DATABASE_URL
+});
+```  
+replace()가 있어야한다.
