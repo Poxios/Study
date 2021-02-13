@@ -31,3 +31,25 @@ service cloud.firestore {
   }
 }
 ```
+
+내 예시
+```js
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+  	match /users/{userId}/{document=**} {
+    	allow read: if request.auth.uid == userId;
+      match /notifications/{singleNotificationDoc}{
+      	allow update: if request.auth.uid == userId;
+      }
+    }
+  	match /departMajor/{document=**} {
+    	allow read: if true;
+    }
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
+```
