@@ -4,3 +4,6 @@ workBox로 index.html만 서버에서 가져오기. 이거 안하면 빌드 다�
 
 https://m.blog.naver.com/PostView.nhn?blogId=dilrong&logNo=221532597601&targetKeyword=&targetRecommendationCode=1  
 PWA 알림 
+
+https://blog.logrocket.com/setting-up-a-pwa-with-service-workers-and-create-react-app/  
+여기에 다 정리되어있음. workBox로 이어주면 될듯.
