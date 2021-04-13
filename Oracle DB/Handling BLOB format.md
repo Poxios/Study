@@ -14,3 +14,6 @@ SELECT  DBMS_LOB.SUBSTR(CONTENTS, DBMS_LOB.GETLENGTH(CONTENTS), 1) AS LOB_CONTEN
 DBMS_LOB.INSTR(CONTENTS, 'Cookie', 1, 1) > 0
 ```
 이런 것도 있다. 추후 학습 요망.
+  
+* https://javaoop.tistory.com/93
+* https://snoopy81.tistory.com/134
