@@ -1,0 +1,1 @@
+copy All.ahk "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup"
