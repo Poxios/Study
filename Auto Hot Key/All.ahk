@@ -9,8 +9,14 @@ return
 
 !1::
 WinShow, 카카오톡
+WinActivate, 카카오톡
 return
 
 !2::
 WinHide, 카카오톡
+return
+
+!3::
+WinShow, ahk_exe Notion.exe
+WinActivate, ahk_exe Notion.exe
 return
