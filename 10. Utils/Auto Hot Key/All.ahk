@@ -20,3 +20,13 @@ return
 WinShow, ahk_exe Notion.exe
 WinActivate, ahk_exe Notion.exe
 return
+
+!4::
+WinShow, ahk_exe Chrome.exe
+WinActivate, ahk_exe Chrome.exe
+return
+
+!5::
+WinShow, ahk_exe Discord.exe
+WinActivate, ahk_exe Discord.exe
+return
