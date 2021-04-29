@@ -9,6 +9,10 @@ return
 
 !1::
 WinShow, 카카오톡
+return
+
+^!1::
+WinShow, 카카오톡
 WinActivate, 카카오톡
 return
 
