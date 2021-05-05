@@ -23,3 +23,5 @@ All the forms above can produce arrays initialised to pretty much any desired va
 ```js
 [ ...Array(N).keys() ].map(f)
 ```
+  
+* https://stackoverflow.com/questions/3746725/how-to-create-an-array-containing-1-n
