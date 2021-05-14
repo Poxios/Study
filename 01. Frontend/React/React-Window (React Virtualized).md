@@ -30,6 +30,7 @@
 ```
 * 또한, 위 코드의 FixedSizeList의 인자로 들어가는 height, width는 부모의 Dynamic Size에 대비하여 추가적으로 `AutoSizer`을 도입할 수 있음.
 ```tsx
+import AutoSizer from "react-virtualized-auto-sizer";
  <AutoSizer>
       {({ height, width }) => (
             <FixedSizeList
