@@ -8,3 +8,4 @@
     }),
 ```
 * `responseType: arraybuffer` 이게 중요하다
+* https://stackoverflow.com/questions/62874303/rails-api-react-axios-downloads-corrupted-file
