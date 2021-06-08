@@ -23,11 +23,5 @@ Run %A_AppData%\..\Local\Programs\Notion\Notion.exe
 return
 
 !4::
-WinShow, ahk_exe Chrome.exe
-WinActivate, ahk_exe Chrome.exe
-return
-
-!5::
-WinShow, ahk_exe Discord.exe
-WinActivate, ahk_exe Discord.exe
+Run C:\Users\yalle\AppData\Local\Discord\app-1.0.9002\Discord.exe
 return
