@@ -8,4 +8,6 @@
 ### Alt + 2
 * 카카오톡 숨기기
 
-
+## 시작 폴더 접근 명령어
+* `shell:startup`
+* `shell:common startup`
