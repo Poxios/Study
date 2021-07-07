@@ -14,3 +14,6 @@ KEYWORD #ISSUE-NUMBER
 `Closes #10`  
   
 이렇게 하면 자동으로 등록된다고 함.
+
+## 여러 개의 Remote Repo 등록
+* https://twofootdog.tistory.com/42
