@@ -17,3 +17,6 @@ KEYWORD #ISSUE-NUMBER
 
 ## 여러 개의 Remote Repo 등록
 * https://twofootdog.tistory.com/42
+
+## Deployment 시스템에 Github Pull without account
+* https://stackoverflow.com/questions/19702067/pull-from-github-without-authentication-every-time
