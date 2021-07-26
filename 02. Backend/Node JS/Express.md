@@ -101,5 +101,6 @@ app.use(function handleDatabaseError(error, req, res, next) {
 morgan, winston 쓰는데 콘솔에 찍을거면 morgan쓰면 된다.
 
 ## 비동기 처리
-https://programmingsummaries.tistory.com/399  
-기본적으로 express는 비동기 처리를 지원하지 않는다.
+* https://programmingsummaries.tistory.com/399
+* https://thewavelet.tistory.com/40
+* 기본적으로 express는 비동기 처리를 지원하지 않는다. 정확히는 비동기를 지원하지 않는게 아니고, **기존에 구동 중 Error 발생 시 자동으로 Next Function이 실행되었던 것이 Promise Rejection과 호환되지 않아서 Next Function으로 넘어가지 않는 것이다.**
