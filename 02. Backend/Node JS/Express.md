@@ -104,3 +104,8 @@ morgan, winston 쓰는데 콘솔에 찍을거면 morgan쓰면 된다.
 * https://programmingsummaries.tistory.com/399
 * https://thewavelet.tistory.com/40
 * 기본적으로 express는 비동기 처리를 지원하지 않는다. 정확히는 비동기를 지원하지 않는게 아니고, **기존에 구동 중 Error 발생 시 자동으로 Next Function이 실행되었던 것이 Promise Rejection과 호환되지 않아서 Next Function으로 넘어가지 않는 것이다.**
+
+## Middleware & Typescript
+* 간혹 Request에 유저 정보라든지에 대한 새로운 필드를 추가하여 사용해야할 때가 있다.
+* 이럴 때 d.ts를 사용해야한다.
+* https://wooooooak.github.io/node.js/2018/12/18/express%EC%99%80-Typescript-%EC%82%AC%EC%9A%A9-%EC%A4%91-req%EC%97%90-%EC%9E%84%EC%9D%98%EC%9D%98-%EA%B0%92-%EB%84%A3%EA%B8%B0/
