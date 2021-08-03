@@ -15,3 +15,4 @@ goto check_Permissions
 
     pause >nul
 ```
+* https://stackoverflow.com/questions/4051883/batch-script-how-to-check-for-admin-rights
