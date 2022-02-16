@@ -6,7 +6,8 @@ from typing import List
 # 2. Digit logs - consist only digits
 
 # Letter logs must come before digit logs
-# 
+#
+
 
 class Solution:
     def reorderLogFiles(self, logs: List[str]) -> List[str]:
@@ -14,17 +15,24 @@ class Solution:
         letterLogList = []
         digitLogList = []
         for log in logs:
-            identifier = log.split(' ').pop(0)
-            real_log = ''.join(log)
+            log_list = log.split(' ')
+            identifier = log_list.pop(0)
+            real_log = ''.join(log_list)
             if real_log.isalpha():
                 letterLogList.append(log)
             else:
                 digitLogList.append(log)
 
-            """ for single_log in real_log:
-                if single_log.isalpha():
-                    letterLogList.append(single_log)
-                else:
-                    digitLogList.append(single_log) """
+        print ('--------------------1')
+        print(letterLogList)
+        print ('--------------------2')
+        print(digitLogList)
 
-        # 2.
+        # 2. Sort letter logs vs digit logs
+        def get_real_log(log: str) -> str:
+            log_list = log.split(' ')
+            identifier = log_list.pop(0)
+            return ''.join(log_list)
+
+        letterLogList=sorted(letterLogList, key=lambda x: get_real_log(x))
+        return letterLogList + digitLogList
