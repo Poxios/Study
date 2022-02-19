@@ -17,6 +17,8 @@ class Solution:
         answer_list = []
         nums = sorted(nums)
         for i, n in enumerate(nums):
+            if n>0:
+                break
             list_left = nums[i+1:]
             can_pass = True
             while can_pass:
