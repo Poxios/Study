@@ -6,5 +6,6 @@ Name,Difficulty,Fresh,Keywords
 07. Two Sum,Medium,High,"List to dict, access using dict key"
 08. Trapping rain water,High,High,"Two pointer, Stack"
 09. Sum of three numbers,Medium,Medium,"Two pointer, Handling exception"
-10. Array partition I,Medium,Medium,
+10. Array partition I,Medium,Medium,"Find rules"
 11. Product of array except self,Medium,High,"O(n^2) to O(n)"
+12. Best Time to Buy and Sell Stock,,,
