@@ -1,0 +1,10 @@
+Name,Difficulty,Fresh,Keywords
+03. Reorder data in log files,Easy,Low,
+04. Most common word,Medium,Low,
+05. Group Anagrams,Medium,Medium,"Sort"
+06. Palindromic Substring,Medium,High,"Sliding window, Two pointer"
+07. Two Sum,Medium,High,"List to dict, access using dict key"
+08. Trapping rain water,High,High,"Two pointer, Stack"
+09. Sum of three numbers,Medium,Medium,"Two pointer, Handling exception"
+10. Array partition I,Medium,Medium,
+11. Product of array except self,Medium,High,"O(n^2) to O(n)"
