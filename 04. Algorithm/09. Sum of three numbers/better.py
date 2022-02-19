@@ -6,6 +6,8 @@ from typing import Dict, List
 # Defeat factor: on 3sum calculation, if first number is fixed, last two pair
 # cannot be changed only a number
 
+# pass exceptions is important
+
 
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
