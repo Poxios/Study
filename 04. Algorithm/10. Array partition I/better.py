@@ -4,4 +4,4 @@ from typing import Dict, List
 
 class Solution:
     def arrayPairSum(self, nums: List[int]) -> int:
-      return sum(sorted(nums[::2]))
+      return sum(sorted(nums)[::2])
