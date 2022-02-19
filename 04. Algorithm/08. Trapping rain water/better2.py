@@ -3,7 +3,6 @@ from typing import Dict, List
 # Stack
 # Need to know
 
-
 class Solution:
     def trap(self, height: List[int]) -> int:
         stack = []
