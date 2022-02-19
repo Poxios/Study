@@ -8,4 +8,4 @@ Name,Difficulty,Fresh,Keywords
 09. Sum of three numbers,Medium,Medium,"Two pointer, Handling exception"
 10. Array partition I,Medium,Medium,"Find rules"
 11. Product of array except self,Medium,High,"O(n^2) to O(n)"
-12. Best Time to Buy and Sell Stock,,,
+12. Best Time to Buy and Sell Stock,Medium,High,"Calculate min, max on all time"
