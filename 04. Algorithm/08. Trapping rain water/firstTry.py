@@ -8,6 +8,7 @@ class Solution:
       if index >= len(height) - 1:
         break
       if height[index + 1] < height[index]:
+        print('found high town: ' + str(height[index]))
         canBlock = False
         for h in height[index + 1:]:
           if h >= height[index]:
@@ -17,12 +18,12 @@ class Solution:
           startHeight = height[index]
           index += 1
           while height[index] < startHeight:
-            
             totalHoleSize += startHeight - height[index]
             if index >= len(height)-1:
               break
             else:
               index += 1
+          index-=1
       index += 1
       
     return totalHoleSize
