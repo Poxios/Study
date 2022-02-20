@@ -12,6 +12,6 @@ print(a,b) # 3, 1
 a=None
 a,a.next=ListNode(1),ListNode(2)
 ```
-* this line doesn't make error, nonetype has no attribute "xx"
+* this line doesn't make error, nonetype has no attribute "next"
 * because, python does not process this work after the line, just saving right var's values in temp memory.
 * explained!
