@@ -1,5 +1,4 @@
-test = 'ab'
-for i in test:
-    print(test[0])
+while None:
+    print('')
 
     
