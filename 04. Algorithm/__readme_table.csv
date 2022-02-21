@@ -10,3 +10,5 @@ Name,Difficulty,Fresh,Keywords
 11. Product of array except self,Medium,High,"O(n^2) to O(n)"
 12. Best Time to Buy and Sell Stock,Medium,High,"Calculate min, max on all time"
 13. Palindrome linked list,High,High,"Deque, Linked List, Runner"
+14. Merge two sorted lists,Medium,Medium,"Recursion, Linked List"
+15. Reverse Linked List,Easy,Easy,"Recursion, Linked List"
