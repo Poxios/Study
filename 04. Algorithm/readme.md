@@ -32,3 +32,6 @@
 |17. Swap nodes in pairs            |Hard      |High  |Recursion, Linked List, More study required|
 |18. Odd even linked list           |Medium    |Medium|Linked List                        |
 |19. Reverse Linked List 2          | Medium   |Low   |Linked List, Swap                  |
+|20. Valid parentheses              |Easy      |Low   |Stack                              |
+|21. Remove Duplicate Letters       |Hard      |High  |More study required, Stack         |
+|22. Daily temperatures             |Medium    |Medium|Stack                              |
