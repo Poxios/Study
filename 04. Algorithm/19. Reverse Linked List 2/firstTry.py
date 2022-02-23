@@ -1,6 +1,4 @@
 # Definition for singly-linked list.
-from inspect import EndOfBlock
-
 
 class ListNode:
     def __init__(self, val=0, next=None):
