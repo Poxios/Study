@@ -12,7 +12,6 @@
 ```
 
 * Table below was all written by me, based on my own thoughts.  
-
 |Name                               |Difficulty|Fresh |Keywords                           |
 |-----------------------------------|----------|------|-----------------------------------|
 |03. Reorder data in log files      |Easy      |Low   |                                   |
@@ -35,3 +34,6 @@
 |20. Valid parentheses              |Easy      |Low   |Stack                              |
 |21. Remove Duplicate Letters       |Hard      |High  |More study required, Stack         |
 |22. Daily temperatures             |Medium    |Medium|Stack                              |
+|23. Implement stack using queues   |Easy      |Medium|Stack, Queue                       |
+|24. Implement queue using stacks   |Easy      |Medium|Stack, Queue                       |
+|25. Design circular queue          |Medium    |Medium|Circular queue                     |
