@@ -12,6 +12,7 @@
 ```
 
 * Table below was all written by me, based on my own thoughts.  
+
 |Name                               |Difficulty|Fresh |Keywords                           |
 |-----------------------------------|----------|------|-----------------------------------|
 |03. Reorder data in log files      |Easy      |Low   |                                   |
