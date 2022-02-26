@@ -1,0 +1,1 @@
+# book's solution - use double linked list, but first solution is closer to intention of problem
