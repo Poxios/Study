@@ -1,3 +1,5 @@
+# draw in paper first!!
+
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         used ={}

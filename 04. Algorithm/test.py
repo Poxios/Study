@@ -1,2 +1,3 @@
-for i in range(0):
-  print('32')
+def test(kargs):
+  print(type(kargs))
+test(**{'a':11,'b':2,'d':4})
