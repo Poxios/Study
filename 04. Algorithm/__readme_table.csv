@@ -30,3 +30,6 @@ Name,Difficulty,Fresh,Keywords
 31. Top K Frequent Elements,Medium,High,"Python skills, Counter"
 32. Number of islands,Medium,High,"DFS, DFS with n*m array"
 33. Letter Combinations of a Phone Number,Medium,Medium,"DFS"
+34. Permutations,Medium,Medium,"DFS"
+35. Combinations,Medium,Medium,"DFS"
+36. Combination Sum,Medium,Medium,"DFS"
