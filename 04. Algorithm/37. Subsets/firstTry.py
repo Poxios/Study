@@ -13,7 +13,7 @@ class Solution:
             results.append(basket)
             
             for idx, num in enumerate(candidates):
-                dfs(candidates[idx + 1:], basket + [  num])
+                dfs(candidates[idx + 1:], basket + [num])
 
         dfs(nums, [])
         return results
