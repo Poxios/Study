@@ -36,3 +36,4 @@ Name,Difficulty,Fresh,Keywords
 37. Subsets,Medium,Medium,"DFS"
 38. Reconstruct Itinerary,Hard,Medium,"DFS in bothways, More study required"
 39. Course Schedule,?,?,"?"
+40. Network delay time,Medium,Medium,"BFS, Dijkstra"
