@@ -6,26 +6,14 @@ class TreeNode:
         self.left = left
         self.right = right
 
+# remember. if tree cut by 
 
 class Solution:
     def mergeTrees(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> Optional[TreeNode]:
-        if not (root1 or root2):
-            return
-        root = TreeNode()
-        def recursive(target, a, b):
-            if not a:
-                a=TreeNode()
-            if not b:
-                b=TreeNode()
-            target.val += a.val
-            target.val += b.val
-            if a.left or b.left:
-                target.left = TreeNode()
-                recursive(target.left, a.left, b.left)
-            if a.right or b.right:
-                target.right = TreeNode()
-                recursive(target.right, a.right, b.right)
-
-        recursive(root,root1,root2)
-        return root
-
+        if root1 and root2:
+            node = TreeNode(root1.val + root2.val)
+            node.left = self.mergeTrees(root1.left, root2.left)
+            node.right = self.mergeTrees(root1.right, root2.right)
+            return node
+        else:
+            return root1 or root2
