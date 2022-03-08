@@ -39,3 +39,5 @@ Name,Difficulty,Fresh,Keywords
 40. Network delay time,Medium,Medium,"BFS, Dijkstra"
 41. Cheapest Flights Within K Stops,High,High,"Dijkstra, More study required"
 42. Maximum Depth of Binary Tree,Medium,Low,"BFS, Tree"
+43. Diameter of Binary Tree,Medium,High,"BFS, Tree, Longest path of tree"
+44. Longest Univalue Path,High,High,"BFS, Tree, Longest path of tree"
