@@ -53,3 +53,5 @@
 |38. Reconstruct Itinerary                         |Hard      |Medium|DFS in bothways, More study required       |
 |39. Course Schedule                               |?         |?     |?                                          |
 |40. Network delay time                            |Medium    |Medium|BFS, Dijkstra                              |
+|41. Cheapest Flights Within K Stops               |High      |High  |Dijkstra, More study required              |
+|42. Maximum Depth of Binary Tree                  |Medium    |Low   |BFS, Tree                                  |
