@@ -1,4 +1,4 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
@@ -10,7 +10,9 @@ return
 ; 카카오톡 창 띄우고 Focus
 !1::
 WinShow, 카카오톡
+WinShow, ahk_class EVA_Window_Dblclk
 WinActivate, 카카오톡
+WinActivate, ahk_class EVA_Window_Dblclk
 return
 
 ; 카카오톡 창 숨기기
