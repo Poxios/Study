@@ -4,7 +4,7 @@ import pandas as pd
 # csv파일을 바로 데이터프레임으로 바꿔준다.
 df = pd.read_csv('https://bit.ly/perch_csv_data')
 perch_full = df.to_numpy() # 넘파이 배열로도 바로 바꿀수있다.
-print(perch_full)
+# print(perch_full)
 
 import numpy as np
 perch_weight = np.array([5.9, 32.0, 40.0, 51.5, 70.0, 100.0, 78.0, 80.0, 85.0, 85.0, 110.0,
@@ -57,11 +57,15 @@ ridge.fit(train_scaled, train_target)
 print(ridge.score(train_scaled,train_target))
 # alpha값이 있는데 이건 사람이 조정하는 값이다. 높을 수록 규제가 강해진다.
 # 적절한 alpha값을 찾는 방법은 훈련, 테스트 점수가 가장 가까운 지점이 그것이다.
+
+# 릿지는 계수를 제곱한 값을 기준으로 규제를 적용하고, 라쏘는 계수의 절댓값을 기준으로 규제를 적용한다.
+# 릿지가 더 많이 쓰인다.
 import matplotlib.pyplot as plt
 train_score=[]
 test_score=[]
 alpha_list=[0.001, 0.01, 0.1, 1, 10, 100]
 for alpha in alpha_list:
+  # 만약 라쏘를 하고 싶으면 Ridge -> Lasso로 바꿔주기만 하면 된다!
   ridge = Ridge(alpha=alpha)
   ridge.fit(train_scaled,train_target)
   train_score.append(ridge.score(train_scaled, train_target))
@@ -73,4 +77,8 @@ plt.xlabel('alpha')
 plt.ylabel('R^2')
 plt.show()
 
-# 임시 - p.162 하는 주
+# 만약 라쏘로 바꾸고 나서, 어떤 계수가 0이 됐는지 알고 싶으면.
+# print(np.sum(lasso.coef_ == 0))
+# 이렇게 하면 그 특성들 중에 어떤 특성들이 유용한 지를 판별할 수 있다.
+
+
