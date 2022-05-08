@@ -1,6 +1,6 @@
 # Algorithm Study with LeetCode
 <p align="middle">
-  <img src="/00.%20Extra/logo.png" width="500" /> 
+  <img src="00.%20Extra/logo.png" width="500" /> 
 </p>
 
 * You can find original problems on leetcode by searching name in google  
