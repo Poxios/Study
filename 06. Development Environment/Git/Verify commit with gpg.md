@@ -1,0 +1,1 @@
+* https://velog.io/@bigsaigon333/github-verified-commit-%ED%95%98%EA%B8%B0
