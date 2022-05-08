@@ -1,5 +1,6 @@
 # YoungHyun's Study Repository
 * ALL about I Studied
+* TODO: change security -> security & hacking
 ```
 2022 05 08
 📦Study
