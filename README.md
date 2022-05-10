@@ -1,8 +1,7 @@
 # YoungHyun's Study Repository
-* ALL about I Studied
-* TODO: change security -> security & hacking
+* All about I Studied
+
 ```
-2022 05 08
 📦Study
  ┣ 📂01. Frontend
  ┃ ┣ 📂CSS
@@ -46,8 +45,9 @@
  ┃ ┃ ┣ 📜검색엔진 최적화.md
  ┃ ┃ ┣ 📜리액트 최상위 DOM 렌더링 전 로딩.md
  ┃ ┃ ┗ 📜왜 Unused Vars 는 안좋은가.md
- ┃ ┗ 📂SEO
+ ┃ ┣ 📂SEO
  ┃ ┃ ┗ 📜index.md
+ ┃ ┗ 📜하이브리드, 네이티브 앱.md
  ┣ 📂02. Backend
  ┃ ┣ 📂Firebase
  ┃ ┃ ┣ 📜Firebase.md
@@ -75,7 +75,9 @@
  ┃ ┃ ┣ 📜Errors.md
  ┃ ┃ ┗ 📜Handling BLOB format.md
  ┣ 📂03. Machine Learning
- ┃ ┗ 📂Machine Learning
+ ┃ ┗ 📂01. 혼자 공부하는 머신러닝
+ ┃ ┃ ┣ 📂Extra
+ ┃ ┃ ┃ ┗ 📜logo.jfif
  ┃ ┃ ┣ 📜readme.md
  ┃ ┃ ┣ 📜~p.113.py
  ┃ ┃ ┣ 📜~p.129 KNeighborsRegressor.py
@@ -90,160 +92,161 @@
  ┃ ┃ ┣ 📜~p.318 K-Mean.ipynb
  ┃ ┃ ┣ 📜~p.338 PCA (Principal Components Analysis).ipynb
  ┃ ┃ ┣ 📜~p.366 Tensorflow, Keras.ipynb
- ┃ ┃ ┗ 📜~p.392 Multi Layers, Optimizers.ipynb
+ ┃ ┃ ┣ 📜~p.392 Multi Layers, Optimizers.ipynb
+ ┃ ┃ ┣ 📜~p.421 Many things about DL (callbacks, save models).ipynb
+ ┃ ┃ ┗ 📜~p.443 CNN (Convolutional Neural Network).ipynb
  ┣ 📂04. Algorithm
- ┃ ┗ 📂Algorithm
- ┃ ┃ ┣ 📂.vscode
- ┃ ┃ ┃ ┗ 📜settings.json
- ┃ ┃ ┣ 📂00. Extra
- ┃ ┃ ┃ ┗ 📜logo.png
- ┃ ┃ ┣ 📂03. Reorder data in log files
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂04. Most common word
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂05. Group Anagrams
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂06. Palindromic Substring
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂07. Two Sum
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂08. Trapping rain water
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┣ 📜better2.py
- ┃ ┃ ┃ ┣ 📜firstTry.py
- ┃ ┃ ┃ ┣ 📜fourthTry.py
- ┃ ┃ ┃ ┣ 📜secondTry.py
- ┃ ┃ ┃ ┗ 📜thirdTry.py
- ┃ ┃ ┣ 📂09. Sum of three numbers
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂10. Array partition I
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂11. Product of array except self
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂12. Best Time to Buy and Sell Stock
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂13. Palindrome linked list
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂14. Merge two sorted lists
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┣ 📜firstTry.py
- ┃ ┃ ┃ ┗ 📜secondTry.py
- ┃ ┃ ┣ 📂15. Reverse Linked List
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂16. Add two numbers
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂17. Swap nodes in pairs
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂18. Odd even linked list
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂19. Reverse Linked List 2
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂20. Valid parentheses
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂21. Remove Duplicate Letters
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂22. Daily temperatures
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂23. Implement stack using queues
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂24. Implement queue using stacks
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂25. Design circular queue
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂26. Design circular deque
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂27. Merge k sorted list
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂28. Design hashmap
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂29. Jewels and Stones
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂30. Longest substring without repeating characters
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂31. Top K Frequent Elements
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂32. Number of islands
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂33. Letter Combinations of a Phone Number
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┣ 📜firstTry.py
- ┃ ┃ ┃ ┗ 📜why_error.py
- ┃ ┃ ┣ 📂34. Permutations
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂35. Combinations
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂36. Combination Sum
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂37. Subsets
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂38. Reconstruct Itinerary
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂39. Course Schedule
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂40. Network delay time
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂41. Cheapest Flights Within K Stops
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂42. Maximum Depth of Binary Tree
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂43. Diameter of Binary Tree
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂44. Longest Univalue Path
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂45. Invert Binary Tree
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂46. Merge Two Binary Trees
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂47. Serialize and Deserialize Binary Tree
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📂48. Balanced Binary Tree
- ┃ ┃ ┃ ┣ 📜better.py
- ┃ ┃ ┃ ┗ 📜firstTry.py
- ┃ ┃ ┣ 📜readme.md
- ┃ ┃ ┣ 📜test.py
- ┃ ┃ ┗ 📜__readme_table.csv
+ ┃ ┣ 📂.vscode
+ ┃ ┃ ┗ 📜settings.json
+ ┃ ┣ 📂00. Extra
+ ┃ ┃ ┗ 📜logo.png
+ ┃ ┣ 📂03. Reorder data in log files
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂04. Most common word
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂05. Group Anagrams
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂06. Palindromic Substring
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂07. Two Sum
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂08. Trapping rain water
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┣ 📜better2.py
+ ┃ ┃ ┣ 📜firstTry.py
+ ┃ ┃ ┣ 📜fourthTry.py
+ ┃ ┃ ┣ 📜secondTry.py
+ ┃ ┃ ┗ 📜thirdTry.py
+ ┃ ┣ 📂09. Sum of three numbers
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂10. Array partition I
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂11. Product of array except self
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂12. Best Time to Buy and Sell Stock
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂13. Palindrome linked list
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂14. Merge two sorted lists
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┣ 📜firstTry.py
+ ┃ ┃ ┗ 📜secondTry.py
+ ┃ ┣ 📂15. Reverse Linked List
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂16. Add two numbers
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂17. Swap nodes in pairs
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂18. Odd even linked list
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂19. Reverse Linked List 2
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂20. Valid parentheses
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂21. Remove Duplicate Letters
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂22. Daily temperatures
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂23. Implement stack using queues
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂24. Implement queue using stacks
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂25. Design circular queue
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂26. Design circular deque
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂27. Merge k sorted list
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂28. Design hashmap
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂29. Jewels and Stones
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂30. Longest substring without repeating characters
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂31. Top K Frequent Elements
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂32. Number of islands
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂33. Letter Combinations of a Phone Number
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┣ 📜firstTry.py
+ ┃ ┃ ┗ 📜why_error.py
+ ┃ ┣ 📂34. Permutations
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂35. Combinations
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂36. Combination Sum
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂37. Subsets
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂38. Reconstruct Itinerary
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂39. Course Schedule
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂40. Network delay time
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂41. Cheapest Flights Within K Stops
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂42. Maximum Depth of Binary Tree
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂43. Diameter of Binary Tree
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂44. Longest Univalue Path
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂45. Invert Binary Tree
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂46. Merge Two Binary Trees
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂47. Serialize and Deserialize Binary Tree
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📂48. Balanced Binary Tree
+ ┃ ┃ ┣ 📜better.py
+ ┃ ┃ ┗ 📜firstTry.py
+ ┃ ┣ 📜readme.md
+ ┃ ┣ 📜test.py
+ ┃ ┗ 📜__readme_table.csv
  ┣ 📂05. Computer Science
  ┃ ┣ 📂Data Structure
  ┃ ┃ ┣ 📂Linked List
@@ -261,9 +264,10 @@
  ┃ ┃ ┣ 📜git filter repo.md
  ┃ ┃ ┣ 📜git log with file names_.md
  ┃ ┃ ┗ 📜Verify commit with gpg.md
- ┃ ┗ 📂VSCode
+ ┃ ┣ 📂VSCode
  ┃ ┃ ┣ 📜Bracket Colorize Improvement.md
  ┃ ┃ ┗ 📜Replace all in FILES.md
+ ┃ ┗ 📜Github.md
  ┣ 📂07. Pure Language Study
  ┃ ┣ 📂C C++
  ┃ ┃ ┣ 📂Binary File Management
@@ -304,8 +308,11 @@
  ┃ ┃ ┣ 📜Which program is holding the file or folder.md
  ┃ ┃ ┗ 📜한글 입력 관련 짜증나는 것 해결 모음.md
  ┣ 📂09. Security
- ┃ ┗ 📂SSL
+ ┃ ┣ 📂SSL
  ┃ ┃ ┗ 📜유용한 사이트 모음.md
+ ┃ ┣ 📜BirthdayAttack.md
+ ┃ ┣ 📜Hide binary in to image.md
+ ┃ ┗ 📜UUID.md
  ┣ 📂10. Utils
  ┃ ┗ 📂Auto Hot Key
  ┃ ┃ ┣ 📜All.ahk
@@ -316,10 +323,5 @@
  ┃ ┃ ┗ 📜Explain first 10 lines of twitter.md
  ┃ ┗ 📂Global
  ┃ ┃ ┗ 📜Coding outsourcing site.md
- ┣ 📜BirthdayAttack.md
- ┣ 📜Github.md
- ┣ 📜Hide binary in to image.md
- ┣ 📜README.md
- ┣ 📜UUID.md
- ┗ 📜하이브리드, 네이티브 앱.md
+ ┗ 📜README.md
 ```
