@@ -16,3 +16,7 @@ https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=281381506
 2. 밑바닥부터 시작하는 딥러닝  
 https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=99518713  
 2017년 책이라 딥러닝 분야에서 조금 오래된 것이 아닌가 하는 걱정이 든다.  
+
+3. 구글 브레인 팀에게 배우는 딥러닝 with TensorFlow.js  
+https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=291461847  
+JS로 머신러닝 하는건데 꽤 자세하게 기술되어 있다. 웹이랑 접목시키려면 봐야할듯.  
