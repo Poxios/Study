@@ -48,4 +48,27 @@ docker run -dp 3000:3000 `
 ```
 `$(pwd)`: current dir  
 
+### Make New Network
+`docker network create todo-app`  
+
+### Run MySQL with environment variables
+```powershell
+docker run -d `
+     --network todo-app --network-alias mysql `
+     -v todo-mysql-data:/var/lib/mysql `
+     -e MYSQL_ROOT_PASSWORD=secret `
+     -e MYSQL_DATABASE=todos `
+     mysql:5.7
+```
+
+### Network Troubleshooting
+`docker run -it --network todo-app nicolaka/netshoot`  
+`dig mysql` (hostname required)  
+
+### Execute Command to running container
+`docker exec -it elegant_driscoll mysql -u root -p`  
+
+### Kill All Containers
+`docker kill $(docker ps -q)`  
+
 ### 
