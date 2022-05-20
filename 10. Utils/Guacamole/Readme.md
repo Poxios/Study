@@ -55,6 +55,10 @@ docker-compose up -d
 8. 모두 실행이 완료 되면 ngrok 윈도우 버전을 설치하고 `ngrok http 443` 를 입력한다.
 9. 완료
 
+## 원리
+* 리눅스 기반의 Docker에서 실행되는 과카몰리를 WSL2에서 실행한다.
+* Docker의 `host.docker.internal`를 사용하여 호스트 RDP에 접속한다.
+* Ngrok으로 local 443포트를 오픈한다.
 
 ---
 ### 혹시 몰라서 docker-compose 다 올려놓음
