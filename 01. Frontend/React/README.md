@@ -10,3 +10,5 @@
 * 자꾸 `may cause memory leak`나오는 오류 어디서 나오는건지 보자. 바로 위의 Loading State 관리에 악영향을 줄 수 있다.
 * 모든 Async - Await 과정에 Error Handling을 명확히 적용. 오류 정보들을 묶어서 보낼 수 있게 적용하는 것도 고려. 사용자에게 허락 받아야하는지도 조사.
 * 2022 04 25 Added. NEED TO SEND ERROR SITUATION INFO TO SERVER. IT NEEDS TO BE NOTIFIED TO USER? EX) ALL FRONT ERROR - DO IT IN TRY, CATCH BLOCK - TO BACKEND ERROR LOGGER API
+### Vite 사용하기
+* create-react-app 대신 Vite를 사용해야한다!
