@@ -13,3 +13,17 @@ client.stdout.pipe(process.stdout);
 client.stderr.pipe(process.stderr);
 ```
 * https://ordinary-code.tistory.com/67
+
+### 2022 05 26 Update
+
+```js
+// startscript.js
+const execSync = require("child_process").execSync;
+const path = require("path");
+execSync("npm run start-production", {
+  windowsHide: true,
+  cwd: path.join(__dirname, "./"), // required
+  stdio: 'inherit' // this can pipe all std things. https://nodejs.org/api/child_process.html#optionsstdio
+});
+
+```
