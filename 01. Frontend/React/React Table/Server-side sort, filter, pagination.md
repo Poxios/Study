@@ -1,0 +1,1 @@
+* https://dev.to/inimist/react-table-server-side-pagination-with-sorting-and-search-3163
