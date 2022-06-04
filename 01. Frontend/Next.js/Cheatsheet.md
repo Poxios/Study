@@ -1,0 +1,1 @@
+* https://www.saltycrane.com/cheat-sheets/typescript/next.js/latest/
