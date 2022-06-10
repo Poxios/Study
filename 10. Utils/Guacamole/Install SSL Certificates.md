@@ -51,7 +51,7 @@ for( $i = 0; $i -lt $ports.length; $i++ ){
   iex "netsh interface portproxy add v4tov4 listenport=$port listenaddress=$addr connectport=$port connectaddress=$remoteport";
 }
 ```  
-**Execute this script (.ps1)**  
+Execute this script (.ps1)
 
 
 ### ifconfig error
@@ -64,3 +64,6 @@ Reset: `netsh interface portproxy reset`
 ## ETC
 * Add your ip in `DNS TABLE - A`.
 * You need add `www.` domain in your `DNS TABLE - A`.
+
+## Offical Docs
+* https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/
