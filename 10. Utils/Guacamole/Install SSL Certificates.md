@@ -67,3 +67,13 @@ Reset: `netsh interface portproxy reset`
 
 ## Offical Docs
 * https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/
+
+# Apply with ZeroSSL
+* https://app.zerossl.com/images/zerossl_logo.svg
+## Fix Certificates Error
+`cat certificate.crt ca_bundle.crt > bundle_chained.crt`  
+Merge them with correct order!!!  
+Bundle file is last!!!
+  
+And place .crt, .key files to ngrok/ssl folder and restart docker-compose  
+`docker-compose restart` 
