@@ -8,7 +8,7 @@ sudo add-apt-repository universe
 sudo add-apt-repository ppa:certbot/certbot
 sudo apt-get update
 sudo apt-get install certbot
-sudo apt-get install python-certbot-nginx
+sudo apt-get install python3-certbot-nginx
 sudo certbot --nginx -d www.MYDOMAIN.COM --email MY@EMAIL.com --agree-tos
 ```
 
@@ -60,3 +60,7 @@ for( $i = 0; $i -lt $ports.length; $i++ ){
 ### Check firewall
 Show: `netsh interface portproxy show v4tov4`  
 Reset: `netsh interface portproxy reset`  
+
+## ETC
+* Add your ip in `DNS TABLE - A`.
+* You need add `www.` domain in your `DNS TABLE - A`.
