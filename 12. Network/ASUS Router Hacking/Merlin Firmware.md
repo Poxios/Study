@@ -1,5 +1,4 @@
 # Merlin Firmware
-* https://www.snbforums.com/threads/aimesh-on-rt-ac56u.55732/
 * https://www.asuswrt-merlin.net/download
 
 ```
