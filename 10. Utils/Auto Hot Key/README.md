@@ -11,3 +11,9 @@
 ## 시작 폴더 접근 명령어
 * `shell:startup`
 * `shell:common startup`
+
+# Run as `System` rights
+Start command below as administrator rights
+```powershell
+./psexec.exe -s -i -d  "C:\Program Files\AutoHotkey\AutoHotkey.exe" "C:\Users\yalle\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\All.ahk"
+```
