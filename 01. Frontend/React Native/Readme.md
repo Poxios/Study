@@ -13,3 +13,12 @@ Start metro service (like webpack)
 npx react-native run-android
 ```
 Start emulator or physical device and run app
+
+## Build app to android apk
+```
+react-native run-android
+```
+and find apk file on 
+```
+android/app/build/outputs/apk/release/app-release.apk
+```
