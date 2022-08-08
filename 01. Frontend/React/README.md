@@ -12,3 +12,6 @@
 * 2022 04 25 Added. NEED TO SEND ERROR SITUATION INFO TO SERVER. IT NEEDS TO BE NOTIFIED TO USER? EX) ALL FRONT ERROR - DO IT IN TRY, CATCH BLOCK - TO BACKEND ERROR LOGGER API
 ### Vite 사용하기
 * create-react-app 대신 Vite를 사용해야한다!
+
+### HOC 사용하기
+* 불필요한 반복되는 요소들을 자동화하는건데 한번 공부해보자.
