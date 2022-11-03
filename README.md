@@ -1,7 +1,8 @@
 # YoungHyun's Study Repository
-* All about I Studied
+> All about I Studied
 
 ```
+// Updated at 2022.11.03
 📦Study
  ┣ 📂01. Frontend
  ┃ ┣ 📂CSS
@@ -58,6 +59,7 @@
  ┃ ┃ ┗ 📜Readme.md
  ┃ ┣ 📂SEO
  ┃ ┃ ┗ 📜index.md
+ ┃ ┣ 📜Readme.md
  ┃ ┗ 📜하이브리드, 네이티브 앱.md
  ┣ 📂02. Backend
  ┃ ┣ 📂Docker
@@ -71,6 +73,9 @@
  ┃ ┃ ┣ 📜Docker Cheatsheet.md
  ┃ ┃ ┣ 📜docker-compose.yml
  ┃ ┃ ┣ 📜Official tutorial from docker site.md
+ ┃ ┃ ┗ 📜Readme.md
+ ┃ ┣ 📂Express JS
+ ┃ ┃ ┣ 📜Fastify, Prisma.md
  ┃ ┃ ┗ 📜Readme.md
  ┃ ┣ 📂Firebase
  ┃ ┃ ┣ 📜Firebase.md
@@ -124,6 +129,7 @@
  ┃ ┃ ┣ 📜11. Grouping and Aggregate.md
  ┃ ┃ ┣ 📜12. Subquery.md
  ┃ ┃ ┗ 📜Readme.md
+ ┃ ┣ 📜About Cookie.md
  ┃ ┗ 📜Readme.md
  ┣ 📂03. Machine Learning
  ┃ ┗ 📂01. 혼자 공부하는 머신러닝
@@ -323,6 +329,8 @@
  ┃ ┃ ┣ 📜git filter repo.md
  ┃ ┃ ┣ 📜git log with file names_.md
  ┃ ┃ ┗ 📜Verify commit with gpg.md
+ ┃ ┣ 📂Jenkins (CI Tool)
+ ┃ ┃ ┗ 📜Readme.md
  ┃ ┣ 📂Package Manager (npm, yarn...)
  ┃ ┃ ┗ 📜Readme.md
  ┃ ┣ 📂VSCode
@@ -366,7 +374,11 @@
  ┃ ┣ 📂Android
  ┃ ┃ ┗ 📜강제 전체화면.md
  ┃ ┣ 📂Linux
- ┃ ┃ ┗ 📜Apt Network Error.md
+ ┃ ┃ ┣ 📜Allow all traffic - iptables.md
+ ┃ ┃ ┣ 📜Apt Network Error.md
+ ┃ ┃ ┣ 📜Nginx.md
+ ┃ ┃ ┣ 📜Save Session on Disconnect from SSH.md
+ ┃ ┃ ┗ 📜SSH.md
  ┃ ┣ 📂Windows
  ┃ ┃ ┣ 📜Batch file timestamp.md
  ┃ ┃ ┣ 📜Check admin permission in cmd.md
@@ -401,18 +413,26 @@
  ┃ ┣ 📂Windows Terminal (from ms store)
  ┃ ┃ ┣ 📜My Setting File.json
  ┃ ┃ ┗ 📜Readme.md
- ┃ ┗ 📂yt-dlp
+ ┃ ┣ 📂yt-dlp
  ┃ ┃ ┗ 📜Readme.md
+ ┃ ┗ 📜Readme.md
  ┣ 📂11. Extra
  ┃ ┣ 📂ASUS Router Hacking
  ┃ ┃ ┣ 📜AC56U to AC86U.md
  ┃ ┃ ┗ 📜Merlin Firmware.md
  ┃ ┣ 📂Code Interview
  ┃ ┃ ┗ 📜Explain first 10 lines of twitter.md
+ ┃ ┣ 📂Design
+ ┃ ┃ ┗ 📜App UIUX Site.md
  ┃ ┣ 📂Global
  ┃ ┃ ┗ 📜Coding outsourcing site.md
+ ┃ ┣ 📂Markdown Research
+ ┃ ┃ ┣ 📜example.md
+ ┃ ┃ ┗ 📜myver.md
  ┃ ┣ 📂Remote Desktop (Windows)
  ┃ ┃ ┗ 📜Change frame rate.md
+ ┃ ┣ 📂VSCode Remote Development
+ ┃ ┃ ┗ 📜Save Password.md
  ┃ ┣ 📂개인정보처리방침
  ┃ ┃ ┗ 📂이동중이상무 (사용 중)
  ┃ ┣ 📜How to Remove Leaked Service Account Private Key (Google).png
@@ -421,6 +441,13 @@
  ┃ ┣ 📂ASUS Router Hacking
  ┃ ┃ ┣ 📜AC56U to AC86U.md
  ┃ ┃ ┗ 📜Merlin Firmware.md
+ ┃ ┣ 📂Traefik (Reverse Proxy)
+ ┃ ┃ ┣ 📜500 Error with https.md
+ ┃ ┃ ┣ 📜ACME error when running on docker.md
+ ┃ ┃ ┣ 📜Example docker-compose file.md
+ ┃ ┃ ┣ 📜Example with Portainer.md
+ ┃ ┃ ┗ 📜Generating password for dashboard.md
+ ┃ ┣ 📜About 0.0.0.0 ip.md
  ┃ ┗ 📜Windows Local Port Forwading.md
  ┣ 📜README.md
  ┗ 📜Start VSCode.bat
