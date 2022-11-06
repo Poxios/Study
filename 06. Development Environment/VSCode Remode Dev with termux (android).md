@@ -17,9 +17,10 @@ pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/tua
 8. `sudo apt update && sudo apt install openssh-server`
 9. `apt-get install build-essential -y` (for vscode remote requirements)
 10. `nano /etc/ssh/sshd_config` and change line `PermitRootLogin yes` and `PasswordAuthentication yes`
-11. `mkdir -p /run/sshd`
-12. `/sbin/sshd -p 8023`
+11. `sudo mkdir -p /run/sshd`
+12. `sudo /sbin/sshd -p 8023`
 13. Test with `ssh USER_NAME_HERE@localhost -p 8023`
 
+* you can expose this ssh instance with `frp`
 
 > @Poxios, 2022
