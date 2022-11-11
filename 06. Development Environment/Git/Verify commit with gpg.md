@@ -23,3 +23,9 @@ gpg --import private.key
 ```bash
 git config --global user.signingkey 35F5FFB2
 ```
+
+## Remember GPG password when signing git commits
+You can set a timeout period for gpg-agent in ~/.gnupg/gpg-agent.conf with this line:  
+```
+default-cache-ttl 3600
+```
