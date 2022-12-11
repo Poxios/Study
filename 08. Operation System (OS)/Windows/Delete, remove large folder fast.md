@@ -15,3 +15,8 @@ EXIT
 3. Create key `command` in `Quick Remove`
 4. Change key `command`'s value to `cmd /c "cd %1 && quick_delete.bat"`
 * https://pureinfotech.com/delete-large-folder-fast-windows-10/
+
+### or just with cmd
+```cmd
+rmdir /s /q FOLDER_NAME
+```
