@@ -20,3 +20,7 @@ EXIT
 ```cmd
 rmdir /s /q FOLDER_NAME
 ```
+### or just with bash (linux)
+```
+rm -rf FOLDER_OR_FILE_NAME
+```
