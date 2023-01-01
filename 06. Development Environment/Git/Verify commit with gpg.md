@@ -3,23 +3,24 @@
 
 ## Export and Import GPG Keys
 * https://makandracards.com/makandra-orga/37763-gpg-extract-private-key-and-import-on-different-machine
+> Default path for `gpg.exe` on windows is `C:\Program Files\Git\usr\bin\gpg.exe`.
 1. Turn on GPG key signing global.
 ```bash
 git config --global commit.gpgsign true
 ```
-2. List private key and remember your RSA unique id.
+1. List private key and remember your RSA unique id.
 ```bash
 gpg --list-secret-keys user@example.com
 ```
-3. Export it.
+1. Export it.
 ```bash
-gpg --export-secret-keys YOUR_ID_HERE > private.key
+gpg --export-secret-keys YOUR_ID_HERE(something long above) > private.key
 ```
-4. Import it.
+1. Import it.
 ```bash
 gpg --import private.key
 ```
-5. After import gpg key, connect your GPG key to git.
+1. After import gpg key, connect your GPG key to git.
 ```bash
 git config --global user.signingkey 35F5FFB2
 ```
