@@ -1,5 +1,4 @@
-# YoungHyun's Study Repository
-> All about I Studied
+# All about I studied
 
 ```
 // Updated at 2022.11.03
@@ -8,8 +7,10 @@
  ┃ ┣ 📂CSS
  ┃ ┃ ┣ 📜Always scroll to bottom in div.md
  ┃ ┃ ┣ 📜Color Combination Cheat Sheet.md
+ ┃ ┃ ┣ 📜Grid Mastering.md
  ┃ ┃ ┣ 📜Material Design - Dark Mode.md
- ┃ ┃ ┗ 📜Material UI 관련 이상한 동작.md
+ ┃ ┃ ┣ 📜Material UI 관련 이상한 동작.md
+ ┃ ┃ ┗ 📜Stacking different height boxes.md
  ┃ ┣ 📂Next.js
  ┃ ┃ ┣ 📜Cheatsheet.md
  ┃ ┃ ┣ 📜Dynamic Head Section.md
@@ -64,12 +65,13 @@
  ┣ 📂02. Backend
  ┃ ┣ 📂Docker
  ┃ ┃ ┣ 📂01. Docker 실전 가이드
- ┃ ┃ ┃ ┣ 📂Extra
  ┃ ┃ ┃ ┗ 📜Readme.md
  ┃ ┃ ┣ 📂02. MariaDB
  ┃ ┃ ┃ ┗ 📜Setup.md
  ┃ ┃ ┣ 📂03. MongoDB
  ┃ ┃ ┃ ┗ 📜Setup.md
+ ┃ ┃ ┣ 📂04. Nextcloud
+ ┃ ┃ ┃ ┗ 📜Readme.md
  ┃ ┃ ┣ 📜Docker Cheatsheet.md
  ┃ ┃ ┣ 📜docker-compose.yml
  ┃ ┃ ┣ 📜Official tutorial from docker site.md
@@ -111,6 +113,8 @@
  ┃ ┃ ┗ 📜Handling BLOB format.md
  ┃ ┣ 📂Spring Boot
  ┃ ┃ ┣ 📜Dirty Checking.md
+ ┃ ┃ ┣ 📜Error handling.md
+ ┃ ┃ ┣ 📜FetchType EAGER vs LAZY.md
  ┃ ┃ ┣ 📜JPA Auditing.md
  ┃ ┃ ┗ 📜Readme.md
  ┃ ┣ 📂SQL
@@ -340,7 +344,8 @@
  ┃ ┣ 📂Windows Terminal
  ┃ ┃ ┗ 📜Opacity Edit.md
  ┃ ┣ 📜Github Profile Readme Examples.md
- ┃ ┗ 📜Github.md
+ ┃ ┣ 📜Github.md
+ ┃ ┗ 📜VSCode Remode Dev with termux (android).md
  ┣ 📂07. Pure Language Study
  ┃ ┣ 📂C C++
  ┃ ┃ ┣ 📂Binary File Management
@@ -366,6 +371,8 @@
  ┃ ┃ ┣ 📜Bypass Selenium Blocking (bypass Distil).md
  ┃ ┃ ┣ 📜Multi Assignment.md
  ┃ ┃ ┣ 📜pypy.md
+ ┃ ┃ ┣ 📜Run schedule on background thread.md
+ ┃ ┃ ┣ 📜Run selenium chrome driver on ubuntu cli.md
  ┃ ┃ ┣ 📜Run VSCode on Colab server.md
  ┃ ┃ ┗ 📜크롤링.md
  ┃ ┗ 📂Typescript
@@ -375,21 +382,27 @@
  ┃ ┃ ┗ 📜강제 전체화면.md
  ┃ ┣ 📂Linux
  ┃ ┃ ┣ 📜Allow all traffic - iptables.md
+ ┃ ┃ ┣ 📜Allow single traffic - iptables.md
  ┃ ┃ ┣ 📜Apt Network Error.md
+ ┃ ┃ ┣ 📜htop recommending setting.md
  ┃ ┃ ┣ 📜Nginx.md
  ┃ ┃ ┣ 📜Save Session on Disconnect from SSH.md
- ┃ ┃ ┗ 📜SSH.md
+ ┃ ┃ ┣ 📜SSH.md
+ ┃ ┃ ┣ 📜Swap setting commands.md
+ ┃ ┃ ┗ 📜sysbench.md
  ┃ ┣ 📂Windows
  ┃ ┃ ┣ 📜Batch file timestamp.md
  ┃ ┃ ┣ 📜Check admin permission in cmd.md
- ┃ ┃ ┣ 📜Delete large folder fast.md
+ ┃ ┃ ┣ 📜Delete, remove large folder fast.md
  ┃ ┃ ┣ 📜Error listen EACCES permission denied 0.0.0.0 3000.md
  ┃ ┃ ┣ 📜Fix 0xc0000022 error on starting WindowsTerminal exe.md
  ┃ ┃ ┣ 📜Pstools (Elevate windows permission to SYSTEM).md
  ┃ ┃ ┣ 📜Remove Additional Versions of windows iso.md
  ┃ ┃ ┣ 📜Which program is holding the file or folder.md
+ ┃ ┃ ┣ 📜Windows SSH.md
  ┃ ┃ ┗ 📜한글 입력 관련 짜증나는 것 해결 모음.md
  ┃ ┗ 📂WSL (Windows Subsystem for Linux)
+ ┃ ┃ ┣ 📜Mount Bitlocker directory to wsl.md
  ┃ ┃ ┗ 📜Readme.md
  ┣ 📂09. Security
  ┃ ┣ 📂SSL
@@ -398,10 +411,13 @@
  ┃ ┣ 📜Hide binary in to image.md
  ┃ ┗ 📜UUID.md
  ┣ 📂10. Utils
- ┃ ┣ 📂Auto Hot Key
- ┃ ┃ ┣ 📜All.ahk
+ ┃ ┣ 📂Auto Hot Key (ahk)
  ┃ ┃ ┣ 📜Copy to startup.bat
- ┃ ┃ ┗ 📜README.md
+ ┃ ┃ ┣ 📜README.md
+ ┃ ┃ ┣ 📜ver 1.1.ahk
+ ┃ ┃ ┗ 📜ver 2.0.ahk
+ ┃ ┣ 📂Docker Tools Scripts
+ ┃ ┃ ┗ 📜nginx-reverse-proxy (gui nginx).md
  ┃ ┣ 📂Guacamole
  ┃ ┃ ┣ 📜IME Settings for remote env on chrome.md
  ┃ ┃ ┣ 📜Install SSL Certificates.md
@@ -433,14 +449,17 @@
  ┃ ┃ ┗ 📜Change frame rate.md
  ┃ ┣ 📂VSCode Remote Development
  ┃ ┃ ┗ 📜Save Password.md
- ┃ ┣ 📂개인정보처리방침
- ┃ ┃ ┗ 📂이동중이상무 (사용 중)
  ┃ ┣ 📜How to Remove Leaked Service Account Private Key (Google).png
  ┃ ┗ 📜SemVer.md
  ┣ 📂12. Network
  ┃ ┣ 📂ASUS Router Hacking
  ┃ ┃ ┣ 📜AC56U to AC86U.md
  ┃ ┃ ┗ 📜Merlin Firmware.md
+ ┃ ┣ 📂frp - Reverse Proxy (TCP, UDP Supported)
+ ┃ ┃ ┣ 📜frp_explained_by_poxios.PNG
+ ┃ ┃ ┗ 📜Readme.md
+ ┃ ┣ 📂jsmpeg-vnc (fast vnc via web)
+ ┃ ┃ ┗ 📜via HTTPS with nginx-reverse-proxy.md
  ┃ ┣ 📂Traefik (Reverse Proxy)
  ┃ ┃ ┣ 📜500 Error with https.md
  ┃ ┃ ┣ 📜ACME error when running on docker.md
@@ -448,7 +467,9 @@
  ┃ ┃ ┣ 📜Example with Portainer.md
  ┃ ┃ ┗ 📜Generating password for dashboard.md
  ┃ ┣ 📜About 0.0.0.0 ip.md
+ ┃ ┣ 📜Check my public ip.md
+ ┃ ┣ 📜ipv6.md
  ┃ ┗ 📜Windows Local Port Forwading.md
  ┣ 📜README.md
  ┗ 📜Start VSCode.bat
-```
+ ```
