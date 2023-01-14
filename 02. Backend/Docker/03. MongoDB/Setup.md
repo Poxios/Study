@@ -1,6 +1,6 @@
 ### Install Image
 ```cmd
-
+docker pull mongo
 ```
 
 ### Run Image
