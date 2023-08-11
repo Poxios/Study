@@ -1,3 +1,15 @@
 {
-    "window.title": "Study"
+    "window.title": "Study",
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#1b97d1",
+        "titleBar.activeForeground": "#000000",
+        "titleBar.inactiveBackground": "#1b97d1",
+        "titleBar.inactiveForeground": "#000000",
+        "titleBar.border": "#1b97d1",
+        "activityBar.foreground": "#1b97d1",
+        "tab.activeBorder": "#1b97d1",
+        "iLoveWorkSpaceColors": true,
+        "iLoveWorkSpaceRandom": false,
+        "useWorkspaceLite": true
+    }
 }
