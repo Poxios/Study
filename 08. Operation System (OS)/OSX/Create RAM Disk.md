@@ -8,3 +8,7 @@ diskutil erasevolume APFS 'RAM Disk' `hdiutil attach -nobrowse -nomount ram://10
 ```
 hdiutil detach /dev/disk2
 ```
+## force
+```
+sudo hdiutil detach /dev/disk2 -force
+```
