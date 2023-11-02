@@ -29,3 +29,8 @@ lsblk
 ```
 resize2fs /dev/ubuntu-vg/ubuntu-lv
 ```
+
+7. Finally
+```
+df -hT
+```
