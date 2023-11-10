@@ -9,4 +9,4 @@ docker exec -it CONTAINER_NAME /bin/sh
 ```
 cat /etc/hosts
 ```
-3. Use it!
+3. Use it! (ex. `172.17.0.1`)
