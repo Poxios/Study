@@ -16,7 +16,7 @@ gpg --armor --export B7D77A4BA5D85444
 ```
   
 ### Troubleshooting
-* `gpg: signing failed: Inappropriate ioctl for device` -> just run this command
+* `gpg: signing failed: Inappropriate ioctl for device` -> just run this command and add to `.zshrc`
 ```
 export GPG_TTY=$(tty)
 ```
