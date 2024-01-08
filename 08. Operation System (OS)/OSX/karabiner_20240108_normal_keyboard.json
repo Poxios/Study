@@ -682,19 +682,9 @@
                         "description": "Keyboard Base - Lower",
                         "manipulators": [
                             {
-                                "description": "[right_option] -> to ko",
-                                "conditions": [
-                                    {
-                                        "input_sources": [
-                                            {
-                                                "language": "en"
-                                            }
-                                        ],
-                                        "type": "input_source_if"
-                                    }
-                                ],
+                                "description": "Right command key to change lang",
                                 "from": {
-                                    "key_code": "right_option",
+                                    "key_code": "right_command",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -703,25 +693,16 @@
                                 },
                                 "to": [
                                     {
-                                        "select_input_source": {
-                                            "language": "ko"
-                                        }
+                                        "key_code": "spacebar",
+                                        "modifiers": [
+                                            "left_control"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
                             },
                             {
-                                "description": "[right_option] -> en",
-                                "conditions": [
-                                    {
-                                        "input_sources": [
-                                            {
-                                                "language": "ko"
-                                            }
-                                        ],
-                                        "type": "input_source_if"
-                                    }
-                                ],
+                                "description": "Right option key to change lang (for gk868)",
                                 "from": {
                                     "key_code": "right_option",
                                     "modifiers": {
@@ -732,9 +713,10 @@
                                 },
                                 "to": [
                                     {
-                                        "select_input_source": {
-                                            "language": "en"
-                                        }
+                                        "key_code": "spacebar",
+                                        "modifiers": [
+                                            "left_control"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
