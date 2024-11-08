@@ -14,6 +14,13 @@ gpg --full-generate-key
 gpg --list-secret-keys --keyid-format LONG
 gpg --armor --export B7D77A4BA5D85444
 ```
+
+4. Register key to local git
+```
+git config --global user.signingkey YOUR_LONG_KEY
+git config --global commit.gpgSign true
+```
+
   
 ### Troubleshooting
 * `gpg: signing failed: Inappropriate ioctl for device` -> just run this command and add to `.zshrc`
